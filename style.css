@@ -156,3 +156,40 @@ font-size:18px;
 }
 
 }
+.galeria{
+
+display:grid;
+
+grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+
+gap:20px;
+
+}
+
+.foto{
+
+overflow:hidden;
+
+border-radius:15px;
+
+box-shadow:0 10px 20px rgba(0,0,0,.2);
+
+}
+
+.foto img{
+
+width:100%;
+
+height:280px;
+
+object-fit:cover;
+
+transition:.5s;
+
+}
+
+.foto img:hover{
+
+transform:scale(1.1);
+
+}
