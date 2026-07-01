@@ -193,3 +193,26 @@ transition:.5s;
 transform:scale(1.1);
 
 }
+.whatsapp{
+position:fixed;
+right:20px;
+bottom:20px;
+width:65px;
+height:65px;
+background:#25D366;
+color:white;
+border-radius:50%;
+display:flex;
+justify-content:center;
+align-items:center;
+font-size:34px;
+text-decoration:none;
+box-shadow:0 5px 15px rgba(0,0,0,.3);
+transition:.3s;
+z-index:9999;
+}
+
+.whatsapp:hover{
+transform:scale(1.1);
+background:#1ebe5d;
+}
