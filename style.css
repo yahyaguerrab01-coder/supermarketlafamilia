@@ -38,18 +38,43 @@ nav a:hover{
 color:#ffcc00;
 }
 
+.
 .hero{
-height:90vh;
-background:linear-gradient(rgba(0,0,0,.55),rgba(0,0,0,.55)),url("https://images.unsplash.com/photo-1603048297172-c92544798d5a?auto=format&fit=crop&w=1600&q=80");
-background-size:cover;
-background-position:center;
+min-height:90vh;
 display:flex;
-flex-direction:column;
-justify-content:center;
 align-items:center;
-text-align:center;
-color:white;
-padding:20px;
+padding:80px 8%;
+background:linear-gradient(to right,#ffffff,#f8f8f8);
+}
+
+.hero-text{
+max-width:650px;
+}
+
+.logo-grande{
+width:280px;
+margin-bottom:30px;
+}
+
+.lista{
+list-style:none;
+margin:30px 0;
+}
+
+.lista li{
+font-size:22px;
+margin:12px 0;
+}
+
+.hero h1{
+font-size:60px;
+color:#132b73;
+margin-bottom:20px;
+}
+
+.hero p{
+font-size:24px;
+color:#555;
 }
 
 .hero h1{
