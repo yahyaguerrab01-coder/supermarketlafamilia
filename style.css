@@ -190,3 +190,170 @@ transform:translateY(-8px);
 font-size:55px;
 margin-bottom:20px;
 }
+.ofertas{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+gap:25px;
+}
+
+.oferta{
+background:#fff;
+padding:30px;
+border-radius:18px;
+box-shadow:0 10px 30px rgba(0,0,0,.08);
+text-align:center;
+transition:.3s;
+}
+
+.oferta:hover{
+transform:translateY(-8px);
+}
+
+.oferta h3{
+font-size:26px;
+color:#173b73;
+margin-bottom:15px;
+}
+
+.precio{
+font-size:40px;
+font-weight:700;
+color:#ff4d30;
+margin:20px 0;
+}
+
+.oferta a{
+display:inline-block;
+background:#25D366;
+color:#fff;
+padding:14px 24px;
+border-radius:10px;
+font-weight:600;
+transition:.3s;
+}
+
+.oferta a:hover{
+background:#1faa52;
+}
+
+.contacto-grid{
+display:grid;
+grid-template-columns:1fr 1fr;
+gap:40px;
+align-items:start;
+}
+
+.contacto-info{
+background:#fff;
+padding:35px;
+border-radius:18px;
+box-shadow:0 10px 30px rgba(0,0,0,.08);
+}
+
+.contacto-info h3{
+margin-top:20px;
+color:#173b73;
+}
+
+.contacto-info p{
+margin-top:8px;
+color:#555;
+}
+
+.contacto-info a{
+color:#ff8b00;
+font-weight:600;
+}
+
+.mapa iframe{
+border-radius:18px;
+box-shadow:0 10px 30px rgba(0,0,0,.08);
+}
+
+footer{
+background:#173b73;
+color:#fff;
+margin-top:80px;
+}
+
+.footer-contenido{
+max-width:1200px;
+margin:auto;
+padding:50px 30px;
+text-align:center;
+}
+
+.footer-contenido img{
+width:140px;
+margin:0 auto 20px;
+}
+
+.footer-contenido p{
+margin:10px 0;
+}
+
+.whatsapp-float{
+position:fixed;
+bottom:25px;
+right:25px;
+width:65px;
+height:65px;
+background:#25D366;
+border-radius:50%;
+display:flex;
+align-items:center;
+justify-content:center;
+font-size:34px;
+color:white;
+box-shadow:0 10px 25px rgba(0,0,0,.25);
+transition:.3s;
+z-index:999;
+}
+
+.whatsapp-float:hover{
+transform:scale(1.1);
+}
+
+@media(max-width:900px){
+
+.contenedor{
+flex-direction:column;
+gap:20px;
+}
+
+nav{
+flex-wrap:wrap;
+justify-content:center;
+}
+
+.hero{
+grid-template-columns:1fr;
+text-align:center;
+}
+
+.hero h1{
+font-size:42px;
+}
+
+.hero p{
+font-size:18px;
+}
+
+.hero ul{
+text-align:left;
+display:inline-block;
+}
+
+.hero-botones{
+justify-content:center;
+}
+
+.contacto-grid{
+grid-template-columns:1fr;
+}
+
+.footer-contenido img{
+width:110px;
+}
+
+}
